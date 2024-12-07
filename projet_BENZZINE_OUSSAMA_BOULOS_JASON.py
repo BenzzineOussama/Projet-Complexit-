@@ -99,3 +99,4 @@ def executerTri(fct_tri, color, nom, nlist=15, nval=200, surplace = True):
     plt.ylabel("Temps d'exécution (millisecondes)")  # Titre de l'axe y
     plt.title(f"Performance de l'algorithme de tri \"{nom}\"")  # Titre du graphique
     plt.legend()
+    plt.show()
