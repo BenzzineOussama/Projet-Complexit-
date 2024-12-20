@@ -102,7 +102,7 @@ def executerTri(fct_tri, color, nom, nlist=15, nval=200, surplace = True):
     plt.show()
 
 def executerTri_quick_sort(fct_tri, color, nom, nlist=15, nval=200, surplace=True):
-    axis, listDataRandom, listDataSorted, listDataInvertedSorted = create_data(nlist, nval)
+    axis, listDataSorted, listDataInvertedSorted, listDataRandom = create_data(nlist, nval)
 
     toplotRandom = []
     toplotSorted = []
